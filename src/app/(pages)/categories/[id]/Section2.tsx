@@ -22,6 +22,7 @@ export default async function Section2(props : {id: string}){
                     image: value.image,
                     audio: value.audio,
                     listen: value.listen,
+                    singer: value.singer,
                     link: `/song/${key}`,
                     wishlist: value.wishlist
                 })
